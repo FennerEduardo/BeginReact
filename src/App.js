@@ -1,6 +1,7 @@
 import './App.css';
 import React, { Component } from 'react';
-import ComponentWillMount from './sections/life-cycle/componentWillMount';
+import FetchExample from './sections/fetch-example';
+
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <ComponentWillMount />
+        <FetchExample />
       </div>
     );
   }
