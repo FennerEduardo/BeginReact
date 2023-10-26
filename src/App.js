@@ -1,15 +1,32 @@
 import './App.css';
 import React, { Component } from 'react';
+import cars from './data/cars.json';
+
+class CarItem extends Component {
+  render() {
+    const { car } = this.props
+    return (
+      <li>
+        <p><strong>Nombre: </strong>{car.name}</p>
+        <p><strong>Marca: </strong>{car.company}</p>
+      </li>
+    )
+  }
+}
 
 class App extends Component {
   render() {
-    const numbers = [1, 1, 3, 4, 5]
+
     return (
       <div className="App">
         <h4>Trabajando con Listas</h4>
-        {numbers.map((number, index) => {
-          return <p key={index}>Soy el número {number}</p>
-        })}
+        <ul>
+          {
+            cars.map(car => {
+              return <CarItem  key={car.id} car={car} />
+            })
+          }
+        </ul>
       </div>
     );
   }

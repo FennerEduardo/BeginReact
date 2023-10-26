@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1f45a2de-25f8-4d53-9e7b-2f8c4a84f37e",
+        "name": "Auto1",
+        "company": "Compañía1"
+    },
+    {
+        "id": "f86b1669-17f5-4df1-8a32-1a14d5c0fe21",
+        "name": "Auto2",
+        "company": "Compañía2"
+    },
+    {
+        "id": "04b5e4a9-4b64-4537-9c90-5a03f876d9bf",
+        "name": "Auto3",
+        "company": "Compañía3"
+    },
+    {
+        "id": "58b9e8f1-71a0-4412-9ac4-3753ddc1edeb",
+        "name": "Auto4",
+        "company": "Compañía4"
+    },
+    {
+        "id": "e3921921-35d0-4e8a-a7f8-1573d9a8a7f4",
+        "name": "Auto5",
+        "company": "Compañía5"
+    }
+]
